@@ -18,6 +18,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	max-width: 1200px;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -226,10 +227,6 @@ footer span {
 
 /* laptop and desktop */
 @media (min-width: 1024px) and (max-width: 2560px) {
-
-	.container {
-		width: 90%;
-	}
 
 	header {
 	flex-flow: row nowrap !important;
